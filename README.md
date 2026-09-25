@@ -21,3 +21,14 @@ Copia el archivo `js/utileria.js` a tu proyecto e inclúyelo **antes** de tu pro
 
 ```html
 <script src="js/utileria.js"></script>
+
+Uso
+Funciones obligatorias
+1. Validar Correo Electrónico
+Valida que el formato del correo cumpla con las reglas estándar.
+
+function validarCorreo(correo) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(correo);
+}
+
