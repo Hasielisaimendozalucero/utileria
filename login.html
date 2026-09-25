@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Utileria.js</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+
+        <form id="formularioLogin">
+            <div class="form-group">
+                <label for="loginCorreo">Correo Electrónico:</label>
+                <input type="text" id="loginCorreo" name="loginCorreo" placeholder="ejemplo@correo.com">
+                <small id="errorLoginCorreo" class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="loginPassword">Contraseña:</label>
+                <input type="password" id="loginPassword" name="loginPassword" placeholder="••••••••">
+                <small id="errorLoginPassword" class="error-message"></small>
+            </div>
+
+            <button type="submit" id="btnIngresar">Ingresar</button>
+        </form>
+
+        <!-- Sección para ir al registro -->
+        <div class="redirect-container">
+            <p>¿No tienes una cuenta?</p>
+            <a href="index.html" class="btn-secondary">Crear una cuenta</a>
+        </div>
+    </div>
+
+    <!-- Modal de Bienvenida al Iniciar Sesión -->
+    <div id="modalLoginExito" class="modal-overlay">
+        <div class="modal-content">
+            <h2>¡Bienvenido!</h2>
+            <p id="mensajeLoginExito">Has iniciado sesión correctamente.</p>
+            <button id="btnCerrarModalLogin">Aceptar</button>
+        </div>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
