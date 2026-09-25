@@ -1,22 +1,23 @@
 # utileria.js
 
-Librería JavaScript en Vanilla JS para la validación y formateo de datos en formularios web de registro e inicio de sesión.
+> Librería JavaScript **sin frameworks y sin componentes visuales** para validar y formatear los datos de un formulario de registro.
 
 ## Qué problema resuelve
 
-En el desarrollo web se repiten constantemente los mismos procesos de validación (correo, nombre, teléfono, contraseña, edad), lo que suele generar errores comunes como la omisión de acentos o la 'ñ', cálculos incorrectos de edad según la fecha de nacimiento o la aceptación de contraseñas poco seguras.
+En cada formulario web se escriben otra vez las mismas validaciones (correo, nombre, teléfono, contraseña, edad) y casi siempre con errores: se olvidan los acentos y la ñ, se calcula mal la edad cuando aún no llega el cumpleaños, o se aceptan contraseñas débiles.
 
-`utileria.js` agrupa estas comprobaciones en un solo módulo ligero. Contiene funciones independientes que reciben un dato y devuelven un valor booleano (`true`/`false`), un número o un texto corregido.
+`utileria.js` junta todo en un solo archivo. Son funciones pequeñas que reciben un dato y devuelven `true` / `false`, un número o un texto ya corregido.
 
-* **Alumno:** Hasiel Isai Mendoza Lucero
-* **Asignatura:** Programación Web
+* **Autor:** Hasiel Isai Mendoza Lucero — Instituto Tecnológico de Oaxaca
+* **Materia:** Programación Web
 * **Demo en vivo (GitHub Pages):** https://Hasielisaimendozalucero.github.io/utileria/
+
 
 ---
 
 ## Instalación
 
-Copia el archivo `js/utileria.js` a tu proyecto e inclúyelo antes de tu propio script:
+Copia el archivo `js/utileria.js` a tu proyecto e inclúyelo **antes** de tu propio código:
 
 ```html
 <script src="js/utileria.js"></script>
