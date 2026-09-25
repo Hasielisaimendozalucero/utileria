@@ -73,5 +73,23 @@ Genera un ID único combinando iniciales de los datos del usuario y su año de n
 console.log(generarIdentificador("Hasiel", "test@mail.com", "Secret123!", "2000-01-01")); 
 // Resultado: "ID-HTS-2000"
 ```
-##  Capturas de Pantalla (Demostración de Funciones)
 
+## Capturas de pantalla
+
+### Validación de correo electrónico
+![Validación de correo](img/correoelectronico.png)
+
+### Solo letras
+![Solo letras](img/sololetras.png)
+
+### Validar longitud
+![Validar longitud](img/validarlongitud.png)
+
+### Calcular edad
+![Calcular edad](img/calcularedad.png)
+
+### Es mayor de edad
+![Es mayor de edad](img/esmayordeedad.png)
+
+### Validar contraseña
+![Validar contraseña](img/validarpassword.png)
